@@ -1,3 +1,2 @@
 #!/bin/bash
-cat > poem.txt 
-echo ' ' >> poem.txt | cat poem.txt | cut -c 1 | tr -d '\n' | tr ' '  '\n'
+cat > poem.txt | echo ' ' >> poem.txt | cat poem.txt | cut -c 1 | tr -d '\n' | tr ' '  '\n'
