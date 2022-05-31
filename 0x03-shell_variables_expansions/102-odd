@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | nl | grep -e $'1\t' -e $'3\t' -e $'5\t' -e $'7\t' -e $'9\t' |cut -f2-
+nl | grep -e $'1\t' -e $'3\t' -e $'5\t' -e $'7\t' -e $'9\t' |cut -f2-
